@@ -1,5 +1,7 @@
 build:
   docker:
     worker: Dockerfile
+    worker: dockerfile
 run:
   worker: bash start
+  worker: python3 -m RiZoeLXSpam
